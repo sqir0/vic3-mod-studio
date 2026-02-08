@@ -3,7 +3,18 @@
 
 @import url('https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;500;600&family=Inter:wght@400;500;600;700&display=swap');
 
-:root {
+            :root {
+                --vic3-primary: #c9a227;
+                --vic3-bg: #1e1e2e;
+                --vic3-bg-light: #2a2a3e;
+                --vic3-bg-lighter: #363650;
+                --vic3-text: #cdd6f4;
+                --vic3-text-muted: #9399b2;
+                --vic3-border: #313244;
+                --vic3-success: #a6e3a1;
+                --vic3-warning: #f9e2af;
+                --vic3-error: #f38ba8;
+                --vic3-info: #89b4fa;
             --vic3-primary: ${settings.accentColor || '#c9a227'};
             --vic3-primary-dark: #a68520;
             --vic3-primary-glow: rgba(201, 162, 39, 0.3);
@@ -42,6 +53,67 @@
             visibility: hidden !important;
             pointer-events: none !important;
         }
+
+/* Syntax highlighting colors */
+.syntax-comment { color: #6c7086; font-style: italic; }
+.syntax-string { color: #a6e3a1; }
+.syntax-number { color: #fab387; }
+.syntax-boolean { color: #cba6f7; }
+.syntax-operator { color: #f5c2e7; }
+.syntax-scope { color: #89b4fa; font-weight: 600; }
+.syntax-variable { color: #f9e2af; }
+.syntax-bracket { color: #cdd6f4; }
+.syntax-trigger { color: #89dceb; }
+.syntax-effect { color: #f38ba8; }
+.syntax-modifier { color: #fab387; }
+.syntax-keyword { color: #cba6f7; font-weight: 600; }
+
+/* Bracket colorization */
+.bracket-1 { color: #f9e2af !important; }
+.bracket-2 { color: #89b4fa !important; }
+.bracket-3 { color: #a6e3a1 !important; }
+.bracket-4 { color: #f5c2e7 !important; }
+.bracket-5 { color: #fab387 !important; }
+.bracket-6 { color: #94e2d5 !important; }
+
+/* Base Editor Styles */
+.vic3-textarea {
+    width: 100%;
+    height: 100%;
+    background: transparent;
+    color: var(--vic3-text);
+    font-family: 'JetBrains Mono', 'Fira Code', monospace;
+    font-size: 14px;
+    line-height: 20px;
+    padding: 10px;
+    border: none;
+    outline: none;
+    resize: none;
+    tab-size: 4;
+    white-space: pre;
+    overflow-wrap: normal;
+    overflow-x: auto;
+    caret-color: var(--vic3-primary);
+    z-index: 2;
+    position: relative;
+}
+
+.vic3-highlight-layer {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    padding: 10px;
+    font-family: 'JetBrains Mono', 'Fira Code', monospace;
+    font-size: 14px;
+    line-height: 20px;
+    white-space: pre;
+    overflow: auto;
+    pointer-events: none;
+    z-index: 1;
+    color: transparent;
+}
 
         /* Toggle Button */
         #vic3-toggle-btn {
