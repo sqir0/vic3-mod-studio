@@ -649,8 +649,8 @@
     "government_ig_ambivalent_enaction": { "desc": "Hükümet IG yasalaştırmada kararsız", "scopes": "country" },
     "government_ig_opposes_enaction": { "desc": "Hükümet IG yasalaştırmaya karşı", "scopes": "country" },
     "government_ig_supports_enaction": { "desc": "Hükümet IG yasalaştırmayı destekliyor", "scopes": "country" },
-    "government_transfer_of_power": { "desc": "İktidar transferi kontrolü", "scopes": "country" }
-        "harsh_ai_behavior_trigger": { "desc": "Sert AI davranışı tetikleyici", "scopes": "country" },
+    "government_transfer_of_power": { "desc": "İktidar transferi kontrolü", "scopes": "country" },
+    "harsh_ai_behavior_trigger": { "desc": "Sert AI davranışı tetikleyici", "scopes": "country" },
     "has_account_item": { "desc": "Hesap öğesi var", "scopes": "any" },
     "has_active_building": { "desc": "Aktif bina var", "scopes": "state" },
     "has_active_peace_deal": { "desc": "Aktif barış anlaşması", "scopes": "country" },
@@ -898,8 +898,8 @@
     "interest_group_is_not_less_tolerant_than_current_citizenship_law": { "desc": "IG mevcut vatandaşlık yasasından daha az hoşgörülü değil", "scopes": "interest_group" },
     "interest_group_supports_political_movement": { "desc": "IG siyasi hareketi destekliyor", "scopes": "interest_group" },
     "interest_group_type": { "desc": "IG tipi kontrolü", "scopes": "interest_group" },
-    "investment_pool": { "desc": "Yatırım havuzu", "scopes": "country" }
-        "is_abolishing_subjecthood": { "desc": "Vasallığı kaldırıyor", "scopes": "country" },
+    "investment_pool": { "desc": "Yatırım havuzu", "scopes": "country" },
+    "is_abolishing_subjecthood": { "desc": "Vasallığı kaldırıyor", "scopes": "country" },
     "is_active_in_diplomatic_play": { "desc": "Diplomatik oyunda aktif", "scopes": "country" },
     "is_adjacent_to_country": { "desc": "Ülkeye komşu mu", "scopes": "state" },
     "is_adjacent_to_market": { "desc": "Pazara komşu mu", "scopes": "state" },
